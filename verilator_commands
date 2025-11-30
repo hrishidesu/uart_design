@@ -1,0 +1,5 @@
+verilator --binary --trace --timing --top tb_uart_tx ./rtl/uart_tx.sv ./tb/tb_uart_tx.sv
+
+./obj_dir/Vtb_uart_tx
+
+ gtkwave uart_tx.vcd
